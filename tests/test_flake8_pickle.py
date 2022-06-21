@@ -1,5 +1,5 @@
-from flake8_pickle import __version__
+from flake8_pickle import Plugin
 
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert Plugin.__version__ == '0.1.0'
